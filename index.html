@@ -10,8 +10,14 @@
     <h1>Tyler Allman</h1> 
     <h2>Welcome to my very first webpage!</h2>
     <h3>About myself</h3>
-    
 </body>
+<style>
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+</style>
+<body id="background"></body>
    <main>
     <p>
         My name is Tyler and I like playing games. 
@@ -40,6 +46,13 @@
     <a href="About.html">
         Click here for next page.
     </a>
+    <button onclick="darkMode()">Toggle dark mode</button>
     <footer>Tyler Allman Copyright 2026</footer>
     <img src="https://img.sanishtech.com/u/863ee6a69f1fe13f3f167a3811922580.jpeg">
+    <script>
+        function darkMode(){
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 </main>
