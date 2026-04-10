@@ -12,7 +12,7 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hou
     const code = data.hourly.weathercode[0];
     const wind = data.hourly.windspeed_10m[0];
 
-    document.getElementById("output").innerHTML =
+    document.getElementById("weather").innerHTML =
       "Temperature: " + temp + "°C<br>" +
       "Condition code: " + code + "<br>" +
       "Wind speed: " + wind + " km/h";
