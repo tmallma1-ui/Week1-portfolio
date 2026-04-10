@@ -132,3 +132,5 @@ Controller
 <a href="https://archive.org">
         Favorite Website
     </a>
+Design Patterns I Used
+Getting the data using fetch, using javascript to turn it into an output, then calling it in html
