@@ -135,3 +135,42 @@ Controller
 
 Design Patterns I Used
 Getting the data using fetch, using javascript to turn it into an output, then calling it in html
+Platform 
+
+Language(s) 
+
+Runtime Environment 
+
+Example Apps 
+
+iOS 
+
+Swift 
+
+iOS Runtime 
+
+Messages 
+
+Android 
+
+Kotlin/Java 
+
+ART 
+
+YouTube 
+
+Web 
+
+JavaScript 
+
+Browser Engine 
+
+First HTML project 
+
+Desktop 
+
+varies 
+
+OS-specific / frameworks 
+
+Photoshop 
